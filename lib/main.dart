@@ -12,7 +12,15 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('โค้ดของภานุวัฒน์ จร้า'),
+          child: Text(
+            'โค้ดของภานุวัฒน์ จร้า',
+            style: TextStyle(
+              fontFamily: 'Kanit',
+              fontSize: 50,
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+            ),
+          ),
         ),
       ),
     );
