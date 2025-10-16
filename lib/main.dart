@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('ตุลาคม 2566 - October 2023'),
+          child: Text('โค้ดของภานุวัฒน์ จร้า'),
         ),
       ),
     );
